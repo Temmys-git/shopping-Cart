@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .item-name {
+    flex: 1;
+  }
+  
+  .item-price {
+    margin-left: 20px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .like-btn {
+    cursor: pointer;
+  }
+  
+  .like-btn.liked {
+    color: red;
+  }
+  
+
+/* questions */
+  /* recreate a shopping cart. In this scenario, it’s a cart in which items have already been preselected and from this particular screen the user is able to apply the following instructions:
+
+
+Instructions
+
+Adjust the quantity of each item through  “+” and “-” buttons.
+Delete items from the cart.
+Like items through a clickable heart-shaped button that will change color accordingly.
+See the total price adjusted according to quantity and deletions. Use of external frameworks or icon toolkits
+
+Use of comments during the code
+
+Creativity while creating the shopping cart */

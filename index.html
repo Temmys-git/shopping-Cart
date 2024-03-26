@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Shopping Cart</h1>
+<div id="cart-items">
+  <!-- Example items preselected in the cart -->
+  <div class="cart-item" data-id="1">
+    <div class="item-name">Item 1</div>
+    <div class="item-price">$10</div>
+    <div class="quantity">
+      <button class="decrement-btn">-</button>
+      <input type="number" class="quantity-input" value="1">
+      <button class="increment-btn">+</button>
+    </div>
+    <div class="like-btn">❤️</div>
+    <button class="remove-btn">Remove</button>
+  </div>
+  <div class="cart-item" data-id="2">
+    <div class="item-name">Item 2</div>
+    <div class="item-price">$15</div>
+    <div class="quantity">
+      <button class="decrement-btn">-</button>
+      <input type="number" class="quantity-input" value="1">
+      <button class="increment-btn">+</button>
+    </div>
+    <div class="like-btn">❤️</div>
+    <button class="remove-btn">Remove</button>
+  </div>
+</div>
+<div class="total-price">Total: $<span id="total-price">25</span></div>
+
+<script src="script.js"></script>
+</body>
+</html>
